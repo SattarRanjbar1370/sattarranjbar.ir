@@ -21,6 +21,9 @@ div.continer {
     background-color: rgb(98, 218, 240);
 }
 
+
+/* block header */
+
 div.header {
     display: flex;
     flex-direction: column;
@@ -28,14 +31,68 @@ div.header {
     align-content: flex-start;
 }
 
+
+/* logo and title */
+
 div.poster {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
+    margin: 3em;
 }
 
 div.logo img {
     width: 335px;
     height: auto;
+}
+
+div.title {
+    margin-bottom: 40px;
+}
+
+
+/* meno titer */
+
+div.main {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    height: 2em;
+    display: flex;
+    align-items: center;
+}
+
+div.main ul {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+}
+
+ul.meno a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(222, 248, 223);
+    border: 1px solid white;
+    padding: 2px;
+    width: 90px;
+    margin: 0 10px;
+    transition: 0.9s;
+}
+
+ul.meno a:hover {
+    transform: scale(1.2, 1.2) translateY(10px);
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(79, 105, 6);
+}
+
+ul.meno li {
+    list-style: none;
+    text-align: center;
 }
