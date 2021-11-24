@@ -12,4 +12,30 @@ body {
     justify-content: center;
     align-items: center;
     direction: rtl;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.continer {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(98, 218, 240);
+}
+
+div.header {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+div.poster {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div.logo img {
+    width: 335px;
+    height: auto;
 }
