@@ -16,8 +16,7 @@ body {
 }
 
 div.continer {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     background-color: rgb(98, 218, 240);
 }
 
@@ -27,8 +26,8 @@ div.continer {
 div.header {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    align-content: flex-start;
+    height: 100%;
+    align-items: center;
 }
 
 
@@ -43,7 +42,7 @@ div.poster {
 }
 
 div.logo img {
-    width: 335px;
+    width: 320px;
     height: auto;
 }
 
@@ -95,4 +94,32 @@ ul.meno a:hover {
 ul.meno li {
     list-style: none;
     text-align: center;
+}
+
+
+/* logo html css js */
+
+div.contant {
+    width: 100%;
+}
+
+div.logopro {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0;
+}
+
+div.logopro img {
+    width: 180px;
+    height: auto;
+    transition: 1s;
+}
+
+div.logopro img:hover {
+    transform: translateY(-20px);
 }
