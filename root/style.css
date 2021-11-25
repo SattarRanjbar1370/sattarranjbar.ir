@@ -123,3 +123,7 @@ div.logopro img {
 div.logopro img:hover {
     transform: translateY(-20px);
 }
+
+@media screen and (max-width: 560px) {
+    div.main {}
+}
