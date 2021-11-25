@@ -1,1 +1,62 @@
-y
+/* meno top */
+
+div.poster {
+    flex-direction: column;
+}
+
+div.logo {
+    margin: 0 auto;
+}
+
+div.logo img {
+    width: 260px;
+}
+
+li.meno1 {
+    animation: menoUp 3s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+@keyframes menoUp {
+    from {
+        transform: translateX(50px) scale(0.5, 0.5);
+    }
+    to {
+        transform: translateX(0) scale(1, 1);
+    }
+}
+
+li.meno2 {
+    animation: menoUp2 3s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+@keyframes menoUp2 {
+    from {
+        transform: scale(0.5, 0.5);
+    }
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+li.meno3 {
+    animation: menoUp3 3s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+@keyframes menoUp3 {
+    from {
+        transform: translateX(-50px) scale(0.5, 0.5);
+    }
+    to {
+        transform: translateX(0) scale(1, 1);
+    }
+}
+
+ul.meno a {
+    border-radius: 30%;
+}
