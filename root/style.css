@@ -123,3 +123,36 @@ div.logopro img {
 div.logopro img:hover {
     transform: translateY(-20px);
 }
+
+
+/* contant */
+
+div.contant {
+    width: 100%;
+    background-color: rgb(102, 102, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* form >>> input */
+
+form.form_one {
+    display: flex;
+    width: 100%;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+input.text_box_one {
+    border: 0;
+    outline: 0;
+    border-width: 0;
+    background-color: rgb(158, 158, 158);
+    width: 60%;
+    height: 340px;
+    direction: ltr;
+    border-radius: 15px;
+}
