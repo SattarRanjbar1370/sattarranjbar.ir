@@ -1,8 +1,8 @@
 // javaScript
 
 
-let logo;
-// logo = document.getElementById('title').innerHTML = '<h1 style="font-size:40px">خیلی کد نویس</h1>';
+let showElment = document.getElementById('showElment');
+showElment.innerHTML = document.body.innerHTML;
 
-
-console.log(logo);
+// var result = document.getElementById("Result");
+// result.innerHTML = document.body.innerHTML;

@@ -18,6 +18,9 @@ li.meno1 {
     overflow: hidden;
 }
 
+
+/* animations */
+
 @keyframes menoUp {
     from {
         transform: translateX(50px) scale(0.5, 0.5);
@@ -59,4 +62,22 @@ li.meno3 {
 
 ul.meno a {
     border-radius: 30%;
+}
+
+
+/* logo html css js */
+
+div.logopro {
+    flex-direction: column;
+}
+
+div.logopro img {
+    margin: 10px;
+}
+
+
+/* textarea >>> body element */
+
+.text_box_one {
+    width: 85%;
 }

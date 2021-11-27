@@ -120,6 +120,10 @@ div.logopro img {
     transition: 1s;
 }
 
+div.logo_two img {
+    width: 139px;
+}
+
 div.logopro img:hover {
     transform: translateY(-20px);
 }
@@ -136,23 +140,27 @@ div.contant {
 }
 
 
-/* form >>> input */
+/* textarea >>> body element */
 
-form.form_one {
+div.form_one {
     display: flex;
     width: 100%;
-    margin: 30px auto;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    font-family: Tahoma;
+    margin: 10px auto;
 }
 
-input.text_box_one {
+.text_box_one {
     border: 0;
     outline: 0;
     border-width: 0;
     background-color: rgb(158, 158, 158);
     width: 60%;
-    height: 340px;
+    height: 560px;
     direction: ltr;
     border-radius: 15px;
+    margin: 30px auto;
+    padding: 5px;
 }
