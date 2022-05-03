@@ -42,4 +42,12 @@
           transform: scale(1.2) !important;
   border-color: #00b3ffc6 !important;
 }
+
+.btn-circle {
+  width: auto;
+}
+
+.text-noUnderline {
+  text-decoration: none;
+}
 /*# sourceMappingURL=main.css.map */
