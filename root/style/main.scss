@@ -1,3 +1,8 @@
+$colorTextHover: rgb(57, 112, 59);
+$borderColorHover: #00b3ffc6;
+$colorLightHover:#fffee7;
+
+
 .bg-info {
     background: #bfdfff !important;
 }
@@ -6,7 +11,38 @@
     background: #c2cad180 !important;
 }
 
-// .rounded-md-end{
-//     border-bottom-left-radius: 15px !important;
-//     border-top-left-radius: 15px !important;
-// }
+.rounded-4 {
+    border-radius: 10px;
+}
+
+.fs-me {
+    text-decoration: none;
+    color: black;
+}
+
+.fs-me-light {
+    text-decoration: none;
+    color: $colorLightHover;
+}
+
+.hover-box {
+    transition: all 0.5s;
+
+    &:hover,
+    &:focus {
+        color: $colorTextHover;
+        // transform: matrix(1.2);
+        box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.7);
+    }
+}
+
+.hover-text {
+    transition: all 0.5s;
+
+    &:hover,
+    &:focus {
+        color: $colorTextHover;
+        transform: scale(1.2) !important;
+        border-color: $borderColorHover !important;
+    }
+}

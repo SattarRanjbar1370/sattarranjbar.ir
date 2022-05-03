@@ -5,4 +5,41 @@
 .bg-secondary {
   background: #c2cad180 !important;
 }
+
+.rounded-4 {
+  border-radius: 10px;
+}
+
+.fs-me {
+  text-decoration: none;
+  color: black;
+}
+
+.fs-me-light {
+  text-decoration: none;
+  color: #fffee7;
+}
+
+.hover-box {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.hover-box:hover, .hover-box:focus {
+  color: #39703b;
+  -webkit-box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.7);
+          box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.7);
+}
+
+.hover-text {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.hover-text:hover, .hover-text:focus {
+  color: #39703b;
+  -webkit-transform: scale(1.2) !important;
+          transform: scale(1.2) !important;
+  border-color: #00b3ffc6 !important;
+}
 /*# sourceMappingURL=main.css.map */
