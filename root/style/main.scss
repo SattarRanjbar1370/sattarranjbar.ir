@@ -42,7 +42,7 @@ $colorLightHover:#fffee7;
     &:hover,
     &:focus {
         color: $colorTextHover;
-        transform: scale(1.2) !important;
+        // transform: scale(1.1) !important;
         border-color: $borderColorHover !important;
     }
 }

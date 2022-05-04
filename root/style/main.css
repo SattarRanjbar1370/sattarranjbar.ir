@@ -38,8 +38,6 @@
 
 .hover-text:hover, .hover-text:focus {
   color: #39703b;
-  -webkit-transform: scale(1.2) !important;
-          transform: scale(1.2) !important;
   border-color: #00b3ffc6 !important;
 }
 
