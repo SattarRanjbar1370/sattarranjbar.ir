@@ -1,3 +1,21 @@
-.flex-style{
+.flex-style {
     flex-direction: row-reverse !important;
+}
+
+.set-body {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#label-set {
+    width: 100%;
+    direction: rtl;
+}
+
+.btn-set-outline-primary{
+    &:hover{
+        color: black !important;
+    }
 }
