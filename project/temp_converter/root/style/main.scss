@@ -14,8 +14,20 @@
     direction: rtl;
 }
 
-.btn-set-outline-primary{
-    &:hover{
+.toggleLabel1 {
+    &::after {
+        content: 'فارنهایت به سلسیوس';
+    }
+}
+
+.toggleLabel2 {
+    &::after {
+        content: 'سلسیوس به فارنهایت';
+    }
+}
+
+.btn-set-outline-primary {
+    &:hover {
         color: black !important;
     }
 }
