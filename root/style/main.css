@@ -48,4 +48,12 @@
 .text-noUnderline {
   text-decoration: none;
 }
+
+.shadow-text {
+  text-shadow: 1px 1px 4px black;
+}
+
+.shadow-text:hover {
+  text-shadow: 1px 1px 7px black;
+}
 /*# sourceMappingURL=main.css.map */

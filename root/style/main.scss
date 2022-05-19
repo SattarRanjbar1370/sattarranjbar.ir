@@ -54,3 +54,10 @@ $colorLightHover:#fffee7;
 .text-noUnderline{
     text-decoration: none;
 }
+
+.shadow-text{
+    text-shadow: 1px 1px 4px black;
+    &:hover{
+        text-shadow: 1px 1px 7px black;
+    }
+}
