@@ -1,20 +1,21 @@
 
-// 
 // variable
 let $ = document;
 
 
 // select item in DOM
-let spanChangeLabel = $.getElementById('change-label');
+let spanChangeLabel1 = $.getElementById('change-label-1');
+let spanChangeLabel2 = $.getElementById('change-label-2');
 let inputValue = $.querySelector('input');
 let btnReset = $.getElementById('reset');
 let btnConvert = $.getElementById('convert');
 let btnChange = $.getElementById('change');
 
-
-btnChange.addEventListener('click', function changeAlgo() {
-    console.log(spanChangeLabel.value)
+btnChange.addEventListener('click',function changeText(){
+    spanChangeLabel1.classList.toggle('d-none');
+    spanChangeLabel2.classList.toggle('d-none');
 })
+
 
 
 // modal source
