@@ -56,4 +56,8 @@
 .shadow-text:hover {
   text-shadow: 1px 1px 7px black;
 }
+
+.set-icon {
+  width: 50px;
+}
 /*# sourceMappingURL=main.css.map */
